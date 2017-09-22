@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainModule">
+<head>
+	<meta charset="UTF-8">
+	<title>Tarea 1</title>
+	<script type="text/javascript" src="javascripts/angular.min.js"></script>
+	<script type="text/javascript" src="javascripts/angular-route.min.js"></script>
+	<script type="text/javascript" src="javascripts/angular-resource.min.js"></script>
+	<script type="text/javascript" src="javascripts/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="javascripts/popper.min.js"></script>
+	<script type="text/javascript" src="javascripts/bootstrap.js"></script>
+	<script type="text/javascript" src="javascripts/mainController.js"></script>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+	
+	<script type="text/javascript" src="app/controllers/homeController.js"></script>
+	<script type="text/javascript" src="app/controllers/moviesController.js"></script>
+	<script type="text/javascript" src="app/controllers/actorsController.js"></script>
+	
+</head>
+<body class="miBody">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+	<a class="navbar-brand" href="#/">Home</a>
+
+	<!-- Boton modo responsivo -->
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#!/movies">Movies</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#!/actors">Actors</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<div class="container" ng-view>
+	
+
+</div>
+</body>
+</html>
