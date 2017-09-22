@@ -21,5 +21,12 @@ sudo service mongod start
 ```
 npm run dev
 ```
+
+
+## Ir a la pagina
+
+```
+localhost:9000
+```
 Esta aplicacion fue construida con api generator, para montar el servidor en un hosting de heroku y pasarlo a produccion ir al link
 https://github.com/AlbertoIHP/rest
