@@ -11,7 +11,10 @@ SENDGRID_KEY=sendgridKey
 MASTER_KEY=masterKey
 JWT_SECRET=jwtSecret
 ```
-
+## Iniciar servicio de MongoDB
+```
+sudo service mongod start
+```
 
 ## Servir la aplicacion
 
