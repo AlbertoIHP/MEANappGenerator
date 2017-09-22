@@ -4,6 +4,13 @@
 ```
 npm install
 ```
+## Crear fichero de variable .env y colocar adentro las llaves de acceso
+
+```
+SENDGRID_KEY=sendgridKey
+MASTER_KEY=masterKey
+JWT_SECRET=jwtSecret
+```
 
 
 ## Servir la aplicacion
